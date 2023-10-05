@@ -1,11 +1,20 @@
-body {
+.body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -106,6 +115,7 @@ a {
 .advantages-menu {
 }
 .advantages-menu-list {
+  margin-bottom: 24px;
 }
 .advantages-menu-item {
   color: #2e2f42;
@@ -141,11 +151,11 @@ a {
 
 .team-item {
   background-color: #ffffff;
+  margin-bottom: 24px;
 }
 
 .team-subtitle {
   color: #2e2f42;
-  text-align: center;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -160,6 +170,7 @@ a {
 }
 
 .team-image {
+  padding: 32px;
 }
 
 /* Portfolio */
@@ -172,10 +183,12 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .Portfolio-menu {
 }
 .Portfolio-list {
+  margin-bottom: 24px;
 }
 
 .portfolio-sudtitle {
@@ -195,6 +208,7 @@ a {
 }
 
 .portfoli-image {
+  padding-bottom: 32px;
 }
 
 /* footer */
