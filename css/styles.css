@@ -21,6 +21,11 @@ a {
   text-decoration: none;
 }
 
+img {
+  display: inline-block;
+  max-width: 100%;
+}
+
 .header {
 }
 .header-navigation {
@@ -111,8 +116,10 @@ a {
 .advantages {
 }
 .examples-title {
+  text-align: center;
 }
 .advantages-menu {
+  display: inline-flex;
 }
 .advantages-menu-list {
   margin-bottom: 24px;
@@ -147,6 +154,7 @@ a {
   text-transform: capitalize;
 }
 .team-list {
+  display: inline-flex;
 }
 
 .team-item {
@@ -184,8 +192,10 @@ a {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
+  text-align: center;
 }
 .Portfolio-menu {
+  display: inline-flex;
 }
 .Portfolio-list {
   margin-bottom: 24px;
@@ -237,4 +247,8 @@ a {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.container {
+  width: 1158px;
 }
