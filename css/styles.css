@@ -26,6 +26,10 @@ img {
   max-width: 100%;
 }
 
+.container-navigation {
+  display: flex;
+  align-items: center;
+}
 .header {
   border-bottom: 1px solid #e7e9fc;
   width: 1440px;
@@ -33,6 +37,10 @@ img {
   padding-bottom: 1px;
 }
 .header-navigation {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-grow: 1;
 }
 .header-logo {
   color: #4d5ae5;
@@ -47,8 +55,14 @@ img {
   color: #2e2f42;
 }
 .header-menu-item {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding-left: 76px;
 }
 .header-menu-list {
+  display: flex;
+  gap: 40px;
 }
 .header-menu-link {
   color: #2e2f42;
@@ -67,6 +81,8 @@ img {
   font-style: normal;
 }
 .address-menu {
+  display: flex;
+  gap: 40px;
 }
 .address-menu-item {
 }
@@ -94,6 +110,8 @@ img {
   height: 600px;
   background: #2e2f42;
   padding: 188px 472px 292px 472px;
+  display: flex;
+  justify-content: center;
 }
 
 .solutions-header-button:hover,
@@ -117,6 +135,9 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  display: block;
+  margin: 16px 32px;
+  border-radius: 4px;
 }
 .solutions-btn:hover,
 .solutions-btn:focus {
@@ -137,7 +158,7 @@ img {
 }
 .advantages-menu-list {
   margin-bottom: 24px;
-  gap: 24px;
+  padding-right: 24px;
 }
 .advantages-menu-item {
   color: #2e2f42;
@@ -175,7 +196,8 @@ img {
   padding-bottom: 72px;
 }
 .team-list {
-  display: inline-flex;
+  display: flex;
+  gap: 24px;
 }
 
 .team-item {
@@ -220,7 +242,9 @@ img {
   text-align: center;
 }
 .Portfolio-menu {
-  display: inline-flex;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 .Portfolio-list {
   margin-bottom: 24px;
