@@ -25,15 +25,12 @@ img {
   display: block;
   max-width: 100%;
 }
-.container-soc-title {
-  width: 1158px;
-  display: flex;
-}
 
 .header {
   border-bottom: 1px solid #e7e9fc;
   width: 1440px;
   height: 72px;
+  padding-bottom: 1px;
 }
 .header-navigation {
 }
@@ -96,6 +93,7 @@ img {
   width: 1440px;
   height: 600px;
   background: #2e2f42;
+  padding: 188px 472px 292px 472px;
 }
 
 .solutions-header-button:hover,
@@ -109,7 +107,7 @@ img {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  margin-bottom: 48px;
+  max-width: 496px;
 }
 .solutions-btn-button {
   background-color: #4d5ae5;
@@ -128,11 +126,9 @@ img {
 
 /* advantages */
 
-.advan {
-  text-align: center;
-}
-
 .advantages {
+  padding-top: 180px;
+  padding-bottom: 120px;
 }
 .examples-title {
 }
@@ -164,6 +160,8 @@ img {
   background-color: #f4f4fd;
   width: 1440px;
   height: 732px;
+  padding-top: 120px;
+  text-align: center;
 }
 
 .team-title {
@@ -174,6 +172,7 @@ img {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  padding-bottom: 72px;
 }
 .team-list {
   display: inline-flex;
@@ -181,7 +180,6 @@ img {
 
 .team-item {
   background-color: #ffffff;
-  margin-bottom: 24px;
 }
 
 .team-subtitle {
@@ -190,6 +188,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  padding-bottom: 8px;
 }
 
 .team-desc {
@@ -197,16 +196,17 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-bottom: 32px;
+  border-radius: 4px;
 }
 
 .team-image {
-  padding: 32px;
+  padding-bottom: 32px;
 }
 
 /* Portfolio */
 .Portfolio {
   width: 1440px;
-  height: 3300px;
 }
 .Portfolio-title {
   color: #2e2f42;
@@ -216,6 +216,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
+  padding-top: 120px;
   text-align: center;
 }
 .Portfolio-menu {
@@ -231,6 +232,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  padding-bottom: 8px;
 }
 
 .portfolio-desc {
@@ -239,6 +241,7 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-bottom: 32px;
 }
 
 .portfoli-image {
@@ -264,6 +267,7 @@ img {
   height: 24px;
   align-items: center;
   margin-bottom: 16px;
+  padding-top: 101px;
 }
 
 .footer-logo-item {
@@ -280,9 +284,9 @@ img {
   width: 264px;
 }
 
-.footer-subtitle-center {
-  align-items: center;
-}
 .container {
-  width: 1158px;
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0% auto;
 }
