@@ -4,6 +4,11 @@
   background-color: #fff;
 }
 
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
@@ -101,18 +106,18 @@ img {
 }
 
 /*  Solutions */
-.btn-button {
+.menu-btn-button {
+  display: block;
+  text-align: center;
   padding-top: 188px;
   padding-bottom: 188px;
-  text-align: center;
 }
 
 .solutions-header-button {
   background: #2e2f42;
   display: flex;
   justify-content: center;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  margin-bottom: 120px;
 }
 
 .solutions-header-button:hover,
@@ -127,10 +132,10 @@ img {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
-  max-heights: 120px;
+
   margin-bottom: 48px;
 }
-.container .solutions-btn-button {
+.solutions-btn-button {
   background-color: #4d5ae5;
   color: #fff;
   font-size: 16px;
@@ -138,8 +143,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  display: block;
-  text-align: center;
   padding: 16px 32px;
   border-radius: 4px;
   min-width: 169px;
@@ -155,8 +158,7 @@ img {
 /* advantages */
 
 .advantages {
-  padding-top: 180px;
-  padding-bottom: 120px;
+  margin-bottom: 120px;
 }
 .examples-title {
 }
@@ -165,7 +167,6 @@ img {
   gap: 24px;
   padding-left: 156px;
   padding-right: 156px;
-  height: 1128px;
 }
 .advantages-menu-list {
   margin-bottom: 24px;
@@ -179,6 +180,8 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin: 8px;
+  display: block;
+  margin: 0 auto;
 }
 
 .advantages-menu-descr {
@@ -214,6 +217,7 @@ img {
 
 .team-item {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
 }
 
 .team-subtitle {
