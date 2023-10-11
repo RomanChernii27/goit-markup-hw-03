@@ -61,7 +61,6 @@ img {
 }
 .header-logo-img {
   color: #2e2f42;
-  padding: 24px 0;
 }
 .header-menu-item {
   display: flex;
@@ -78,6 +77,7 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .header-menu-link:hover,
@@ -166,8 +166,13 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.examples-title {
-  visibility: hidden;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
 }
 .advantages-menu {
   display: flex;
@@ -263,6 +268,10 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
+.Portfolio-title-nav {
+}
+
 .Portfolio-main-title {
   color: #2e2f42;
   font-size: 36px;
@@ -286,6 +295,7 @@ img {
 }
 .portfolio-content-desc {
   padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 
 .portfolio-sudtitle-title {
@@ -305,7 +315,7 @@ img {
   letter-spacing: 0.02em;
 }
 
-.portfoli-image {
+.portfoli-image-down {
 }
 
 /* footer */
@@ -346,7 +356,6 @@ img {
 
 .container {
   max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   margin: 0% auto;
 }
