@@ -165,18 +165,21 @@ img {
 .advantages {
   padding-top: 120px;
   padding-bottom: 120px;
+  display: flex;
+  text-align: center;
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  clip-path: inset(100%);
-  white-space: nowrap;
+  margin: -1px;
   border: 0;
   padding: 0;
-  margin: -1;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .advantages-menu {
   display: flex;
@@ -185,8 +188,6 @@ img {
   padding-right: 156px;
 }
 .advantages-menu-list {
-  margin-bottom: 24px;
-  margin-top: 24px;
   width: calc((100% - 72px) / 4);
 }
 .advantages-menu-item {
