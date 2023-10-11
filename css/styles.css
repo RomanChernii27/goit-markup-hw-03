@@ -185,8 +185,6 @@ img {
 .advantages-menu {
   display: flex;
   gap: 24px;
-  padding-left: 156px;
-  padding-right: 156px;
 }
 .advantages-menu-list {
   width: calc((100% - 72px) / 4);
