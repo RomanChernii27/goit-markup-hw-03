@@ -263,16 +263,16 @@ img {
 }
 
 /* Portfolio */
-.Portfolio-main-page {
+.portfolio-main-page {
   width: 1440px;
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
-.Portfolio-title-nav {
+.portfolio-title-nav {
 }
 
-.Portfolio-main-title {
+.portfolio-main-title {
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
@@ -282,13 +282,13 @@ img {
   margin-bottom: 72px;
   text-align: center;
 }
-.Portfolio-menu-list {
+.portfolio-menu-list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
   row-gap: 48px;
 }
-.Portfolio-list-item {
+.portfolio-list-item {
   margin-bottom: 24px;
   width: calc((100% - 48px) / 3);
   border: 1px solid #e7e9fc;
